@@ -8,7 +8,7 @@ Requires at least: WP 3.9, bbPress 2.5.4
 Tested up to: WP/bbPress trunk
 Stable tag: trunk
 
-Provides a quick and easy method of adding all BuddyPress core widgets to a sidebar for testing purposes.
+Provides a quick and easy method of adding all bbPress core widgets to a sidebar for testing purposes.
 
 ==Description==
 
@@ -61,6 +61,10 @@ None at this time.
 * Original Release.
 
 ==Upgrade Notice==
+<<<<<<< HEAD
 
 = v0.2 - October 21, 2014 =
 * Correct hook bbp_widgets_init. 
+=======
+*
+>>>>>>> origin/master
