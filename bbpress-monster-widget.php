@@ -3,7 +3,7 @@
  * Plugin Name:       bbPress Monster Widget
  * Plugin URI:        http://wordpress.org/extend/plugins/bbpress-monster/widget/
  * Description:       A widget that allows for quick and easy testing of multiple bbPress widgets. Not intended for production sites.
- * Version:           0.1
+ * Version:           0.2
  * License:           GPLv2 or later
  * Author:            mercime
  * Author URI:        https://profiles.wordpress.org/mercime
@@ -14,14 +14,14 @@
 /**
  * Register the bbPress Monster Widget.
  *
- * Hooks into the widgets_init action.
+ * Hooks into the bbp_widgets_init action.
  *
- * @since 0.1
+ * @since 0.2
  */
 function register_bbpress_monster_widget() {
 	register_widget( 'bbPress_Monster_Widget' );
 }
-add_action( 'widgets_init', 'register_bbpress_monster_widget' );
+add_action( 'bbp_widgets_init', 'register_bbpress_monster_widget' );
 
 /**
  * bbPress Monster Widget.
