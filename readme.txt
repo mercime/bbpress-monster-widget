@@ -5,7 +5,7 @@ Donate link: http://www.redcross.org/
 Tags: bbpress, widget, theme development 
 License: GPLv2 or later
 Requires at least: WP 3.9, bbPress 2.5.4
-Tested up to: WP/bbPress trunk
+Tested up to: WP 4.2.2, bbPress 2.5.7
 Stable tag: trunk
 
 Provides a quick and easy method of adding all bbPress core widgets to a sidebar for testing purposes.
@@ -48,9 +48,8 @@ None at this time.
 
 == Screenshots ==
 
-1. The bbPress Monster widget will appear in your list of available widgets.
-2. Drag it to a widget area to create an instance.
-3. View your site and see that all core widgets are displayed!
+1. From the admin dashboard: Go to Appearance > Widgets, click on the bbPress Monster Widget, select which sidebar you want to add it to, then click on the Add Widget button.
+2. From the admin toolbar in the frontend: Click on your site title > Widgets, click on Widget Area, click on the Add Widget button, select bbPress Monster Widget on the new panel, click on the Save and Publish button, and exit the Customizer.
 
 ==Changelog==
 
@@ -61,10 +60,6 @@ None at this time.
 * Original Release.
 
 ==Upgrade Notice==
-<<<<<<< HEAD
 
 = v0.2 - October 21, 2014 =
 * Correct hook bbp_widgets_init. 
-=======
-*
->>>>>>> origin/master
