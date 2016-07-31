@@ -5,7 +5,7 @@ Donate link: http://www.redcross.org/
 Tags: bbpress, widget, theme development 
 License: GPLv2 or later
 Requires at least: WP 3.9, bbPress 2.5.4
-Tested up to: WP 4.2.2, bbPress 2.5.7
+Tested up to: WP 4.5.3, bbPress 2.5.10
 Stable tag: trunk
 
 Provides a quick and easy method of adding all bbPress core widgets to a sidebar for testing purposes.
